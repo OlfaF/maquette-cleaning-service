@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "open sans";
+    src: url("assets/fonts/open-sans-v18-latin-regular.woff2") format("woff2"), url("assets/fonts/open-sans-v18-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "sen";
+    src: url("assets/fonts/sen-v4-latin-700.woff2") format("woff2"), url("assets/fonts/sen-v4-latin-700.woff") format("woff");
+}
+
+body {
+    font-family: "open sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.header .image-1 img {
+    filter: brightness(60%);
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    object-fit: cover;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 70%;
+    margin-left: 15rem;
+    margin-top: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 50;
+    color: black;
+    font-family: "sen",
+        font-size: 14px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1px 2px;
+    text-decoration: none;
+    color: black;
+}
+
+.titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: "sen", sans-serif;
+}
+
+.titre p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titre h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.devis {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    font-family: "sen", sans-serif;
+    background-color: #ffffff;
+    width: 70%;
+}
+
+.titre2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.devis .container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main {
+    position: relative;
+}
+
+
+.text {
+    position: relative;
+    max-width: 100%;
+    margin-top: 10%;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    font-family: "open sans", sans-serif;
+    color: white;
+    background-color: black;
+
+}
+
+.text h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    background-color: white;
+    margin-bottom: 50px;
+    display: cover;
+}
+
+
+
+.card1,
+.card2,
+.card3 {
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+
+}
